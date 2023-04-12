@@ -1,0 +1,225 @@
+/* ==== DESKTOP STYLES ==== */
+
+@media screen and (min-width: 1200px){
+
+    .navbar {
+        float: center;
+        background-color: #4a4a4a;
+        width: 70%;
+        height: 60px;
+        display: flex;
+        padding-left: 180px;
+    }
+
+    .stars {
+        padding-right: 20px;
+    }
+    
+    .navbar button {
+        background-color: #4a4a4a;
+        color: rgb(197, 159, 10);
+        padding: 0.5em 0;
+        flex-wrap: wrap;
+        border: none;
+        outline: none;
+        text-align: center;
+    }
+    
+    .navbar button:hover {
+        background-color: rgb(197, 159, 10);
+        color: #191919;
+    }
+    
+    .navbar input[type="text"] {
+        border: none;
+        bottom: 10px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-right: -58px;
+        margin-left: 50px;
+    }
+    
+    i.material-icons {
+        zoom: 1.4;
+        border: 1px solid;
+        border-color: rgb(197, 159, 10);
+        cursor: pointer;
+        margin-right: -40px;
+        margin-left: -49px;
+    }
+
+    .banner-1 {
+        height:830px;
+        position: relative;
+    }
+    
+    .banner-1-img{
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+    }
+    
+    .banner-1-section {
+        background-color: rgba(0, 0, 0, 0.801);
+        position: absolute;
+        top: 80px;
+        height: 600px;
+        padding: 0px 50px;
+        margin: 0 50px;
+    }
+    
+    .banner-1-title {
+        z-index: 99;
+        color : white;
+        text-align: left;
+        font-size: 72px;
+        position: absolute;
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+    
+    .banner-1-description {
+        color : white;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 18px;
+        position: relative;
+        top: 250px;
+    }
+    
+    .banner-1-btn {
+        z-index: 99;
+        background-color:rgb(221, 180, 14);
+        left: 10px;
+        position: relative;
+        top: 320px;
+        padding: 25px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .banner-1-btn:hover {
+        background-color:rgb(255, 205, 3);
+    }
+
+    .col-1 {
+        display: flex;
+    }
+
+    .about-1 {
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .about-2 {
+        padding: 50px;
+        padding-left: 10px;
+    }
+
+    .col-1-img {
+        height: 400px;
+        width:auto;
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .services {
+        display: grid;
+        margin: 50px;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto;
+        gap: 20px;
+    }
+
+    .col-2-img, .col-3-img {
+        height: 450px;
+        width: 100%;
+    }
+
+    .col-4-img, .col-5-img, .col-6-img {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* grids for services */
+
+    .col-2 {
+        grid-area: 1 / 2 / 2 / 5;
+    }
+
+    .col-3 {
+        grid-area: 1 / 5 / 2 / 8;
+    }
+
+    .col-4 {
+        grid-area: 2 / 2 / 3 / 4;
+    }
+
+    .col-5 {
+        grid-area: 2 / 4 / 3 / 6;
+    }
+
+    .col-6 {
+        grid-area: 2 / 6 / 3 / 8;
+    }
+
+    .banner-2 {
+        height: 500px;
+    }
+
+    .banner-2-img {
+        height: 500px;
+    }
+
+    .col-7, .col-8 {
+        display: flex;
+        margin: 50px;
+    }
+    .col-8 {
+        margin-top: -60px;
+    }
+
+    .col-7-img {
+        flex-wrap: wrap;
+        height: auto;
+        width: 700px;
+    }
+
+    .col-8-img {
+        flex-wrap: wrap;
+        height: auto;
+        width: 700px;
+        order: 2;
+    }
+
+    .col-8-section {
+        order: 1;
+    }
+
+    .form-loc-grid {
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+   .form {
+    order: 1;
+    padding: 20px;
+   }
+
+   .location {
+    order: 2;
+    margin: 20px;
+   }
+
+   .table {
+    order: 3;
+    grid-column: 1 / span 2;
+    padding: 0 30px;
+   }
+
+
+}

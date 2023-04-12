@@ -1,0 +1,40 @@
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2 {
+    padding-left: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #4a4a4a;
+}
+
+.btn, img {
+    border-radius: 5px;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .banner-1-section{
+    border-radius: 8px;
+}
+
+/* change font size on desktop */
+@media screen and (min-width: 1200px){
+    .container {
+        width: 100%;
+    }
+    h1 {
+        font-size: 54px;
+        padding-left: 50px;
+    }
+    h2 {
+        font-size: 42px;
+    }
+}
